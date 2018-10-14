@@ -2,6 +2,11 @@
 
 [![Horse](https://i.imgur.com/YhIL9zM.jpg)](https://commons.wikimedia.org/wiki/File:Draw-Costa_Rican-2smallest.jpg)
 
+## Why fork?
+This is a fork of both [swrdfish](https://github.com/swrdfish/meteor-buildpack-horse) & [AdmitHub](https://github.com/AdmitHub/meteor-buildpack-horse) to overcome some issues I had notably [Meteor download failing](https://forums.reactioncommerce.com/t/build-fails-with-meteor-download-on-heroku/1132).
+Credit to original authors as I have just merged their code into a single repository. Tested by deploying an Out-of-box version of reaction commerce on Heroku.
+
+## Overview
 A heroku buildpack for Meteor v1+, designed to be as simple and readable as possible.
 
 To use this with your meteor app and heroku:
